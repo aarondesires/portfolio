@@ -21,5 +21,6 @@ for i in range(0, nums):
   char = generate_random_ascii()
   lst.append(chr(char))
 
+print("Password:")
 for j in range(len(lst)):
   print(lst[j],end="")
